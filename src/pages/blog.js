@@ -23,12 +23,12 @@ const BlogPage = () => {
 
     return (
         <div>
-        <Helmet>
+            <Helmet>
       <html lang="en" />
-      <title>Gatsby SEO PWA test Ron Armengol Kitwe Zambia</title>
+      <title>Kitwe Blogger Ron Armengol Blog Copperbelt Zambia Life</title>
       <meta name="author" content="Ron Armengol" />
-      <meta name="description" content="This is a test for the SEO in Gatsby" />
-      <meta name="keywords" content="This is a test for the SEO in Gatsby from Ron Armengol Kitwe" />
+      <meta name="description" content="Blog articles on Life etc by Ron Armengol Kitwe Copperbelt Zambia" />
+      <meta name="keywords" content="Blog articles on Life ete by Ron Armengol Kitwe Copperbelt Zambia" />
       <meta name="robots" content="index, follow" />
       <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
     </Helmet>
