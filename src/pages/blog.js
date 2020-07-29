@@ -29,8 +29,8 @@ const BlogPage = () => {
             <html lang="en" />
             <title>Kitwe Blogger Ron Armengol Blog Copperbelt Zambia Life</title>
             <meta name="author" content="Ron Armengol" />
-            <meta name="description" content="Blog articles on Life etc by Ron Armengol Kitwe Copperbelt Zambia" />
-            <meta name="keywords" content="Blog articles on Life etc by Ron Armengol Kitwe Copperbelt Zambia" />
+            <meta name="description" content="Blog articles, freelance writer blogger Ron Armengol Kitwe Copperbelt Zambia" />
+            <meta name="keywords" content="Blog articles, freelance writer blogger Ron Armengol Kitwe Copperbelt Zambia" />
             <meta name="robots" content="index, follow" />
             <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
         </Helmet>
@@ -40,7 +40,7 @@ const BlogPage = () => {
             <Layout>
             <h1 className={headerStyles.title}>Kitwe Blog</h1>
 
-                    <ol className={blogStyles.posts}>
+                <ol className={blogStyles.posts}>
 
                     {data.allContentfulBlogPost.edges.map((edge) => {
                         return (
