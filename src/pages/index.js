@@ -2,11 +2,12 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Layout from '../components/layout'
-
+import contactStyles from './contact.module.css'
 
 const IndexPage = () => {
   return (
     <div>
+    <section className={contactStyles.background}>
 
     <Helmet>
       <html lang="en" />
@@ -22,6 +23,7 @@ const IndexPage = () => {
       <h2>I'm Ron, an aspiring full stack developer in Kitwe</h2>
 
     </Layout>
+    </section>
     </div>
   )
   

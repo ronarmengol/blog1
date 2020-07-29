@@ -14,11 +14,11 @@ const ContactPage = () => {
       <meta name="robots" content="index, follow" />
       <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
     </Helmet>
+        
         <Layout>
 
             <h1>Contact</h1>
             <p>My number 0966 232544</p>
-            <p>go to <a href="https://google.com" rel="noreferrer" target="_blank">google</a></p>
 
         </Layout>
         </div>
