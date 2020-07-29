@@ -7,11 +7,23 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Full-stack bootcamp!',
+    title: 'Kitwe Blogger',
     author: 'Ron Armengol'
   },
 
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Ron Armengol`,
+        short_name: `Blog`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+      }
+    },
     {
       resolve: 'gatsby-source-contentful',
       options: {
@@ -43,6 +55,20 @@ module.exports = {
           }
         ]
       }
-    }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: path.join(__dirname, `src`, `images`),
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-robots-txt`,
+
   ],
 }
