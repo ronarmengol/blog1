@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet'
 
 import Layout from '../components/layout'
 import blogStyles from './blog.module.scss'
+import headerStyles from '../components/header.module.scss'
+
 const BlogPage = () => {
 
     const data = useStaticQuery(graphql`
@@ -33,11 +35,11 @@ const BlogPage = () => {
             <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
         </Helmet>
             
-        <section>
+         <section>
 
             <Layout>
+            <h1 className={headerStyles.title}>Kitwe Blog</h1>
 
-                <h1>Blog</h1>
                     <ol className={blogStyles.posts}>
 
                     {data.allContentfulBlogPost.edges.map((edge) => {

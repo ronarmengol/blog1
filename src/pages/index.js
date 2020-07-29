@@ -3,11 +3,9 @@ import { Helmet } from 'react-helmet'
 
 import Layout from '../components/layout'
 import contactStyles from './contact.module.css'
-
 const IndexPage = () => {
   return (
     <div>
-    <section className={contactStyles.background}>
 
     <Helmet>
       <html lang="en" />
@@ -18,9 +16,10 @@ const IndexPage = () => {
       <meta name="robots" content="index, follow" />
       <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
     </Helmet>
+    <section className={contactStyles.background}>
     <Layout>
-      <h1>Hello,</h1>
-      <h2>I'm Ron, an aspiring full stack developer in Kitwe</h2>
+      {/* <h1>Hello,</h1>
+      <h2>I'm Ron, an aspiring full stack developer in Kitwe</h2> */}
 
     </Layout>
     </section>

@@ -1,7 +1,8 @@
 .background {
     background-image: url(../images/blog-kitwe-background.jpg);
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    height: 100%;
+    background-size: cover;
+    height: 150vh;
 }
