@@ -8,7 +8,8 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: 'Kitwe Blogger',
-    author: 'Ron Armengol'
+    author: 'Ron Armengol',
+    siteUrl: `https://ron-armengol-blog.netlify.app`
   },
   
   plugins: [

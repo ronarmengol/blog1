@@ -10,7 +10,7 @@ const IndexPage = () => {
 
     <Helmet>
       <html lang="en" />
-      <title>Gatsby SEO PWA test Ron Armengol Kitwe Zambia</title>
+      <title>Kitwe Blogger</title>
       <meta name="author" content="Ron Armengol" />
       <meta name="description" content="This is a test for the SEO in Gatsby" />
       <meta name="keywords" content="This is a test for the SEO in Gatsby from Ron Armengol Kitwe" />
