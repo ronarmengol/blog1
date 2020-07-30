@@ -39,8 +39,9 @@ const Blog = (props) => {
             <title>Kitwe Blog | {props.data.contentfulBlogPost.title} | Copperbelt Zambia blogger articles freelance writer</title>
             <meta name="author" content="Ron Armengol" />
             <meta name="description" content={props.data.contentfulBlogPost.title} />
-            <meta name="description" content="Copperbelt Zambia blogger articles freelance writer" />
+            <meta name="description" content=" Copperbelt Zambia blogger articles freelance writer" />
             <meta name="keywords" content={props.data.contentfulBlogPost.title} />
+            <meta name="keywords" content=" Blog articles, freelance writer blogger Ron Armengol Kitwe Copperbelt Zambia" />
             <meta name="robots" content="index, follow" />
             <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
         </Helmet>
