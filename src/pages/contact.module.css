@@ -4,5 +4,13 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 110vh;
+}
+.background1 {
+    background-image: url(../images/blog-contact.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
 }

@@ -35,7 +35,7 @@ const Blog = (props) => {
     return (
         <div>
         <Helmet>
-        <html lang="en" />
+            <html lang="en" />
             <title>Kitwe Blog | {props.data.contentfulBlogPost.title} | Copperbelt Zambia blogger articles freelance writer</title>
             <meta name="author" content="Ron Armengol" />
             <meta name="description" content={props.data.contentfulBlogPost.title} />
@@ -50,7 +50,6 @@ const Blog = (props) => {
                 <p>{props.data.contentfulBlogPost.publishedDate}</p>
                 {documentToReactComponents(props.data.contentfulBlogPost.body.json, options)}
             </Layout>
-            
         </div>
     )
 }
