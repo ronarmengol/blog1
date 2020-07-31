@@ -30,20 +30,20 @@ const ContactPage = () => {
 
                 <Form name="sentMessage" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                         <Form.Group controlId="exampleForm.ControlInput1">
-                        <Form.Control type="text" placeholder="name" />
+                        <Form.Control name="name" type="text" placeholder="name" />
                         </Form.Group>
 
                     <Form.Group controlId="exampleForm.ControlInput2">
-                        <Form.Control type="text" placeholder="mobile number" />
+                        <Form.Control name="mobile number" type="text" placeholder="mobile number" />
                     </Form.Group>
 
                     <Form.Group controlId="exampleForm.ControlInput3">
-                        <Form.Control type="email" placeholder="email" />
+                        <Form.Control name="email" type="email" placeholder="email" />
                     </Form.Group>
 
 
                     <Form.Group controlId="exampleForm.ControlTextarea1">
-                        <Form.Control as="textarea" placeholder="your message" rows="3" />
+                        <Form.Control name="textarea" as="textarea" placeholder="your message" rows="3" />
                     </Form.Group>
 
                     <Button variant="primary" type="submit">Submit</Button>
