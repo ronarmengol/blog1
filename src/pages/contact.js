@@ -28,7 +28,7 @@ const ContactPage = () => {
                 <div className={layoutStyles.content}>
                 <h1 className={headerStyles.title}>Kitwe Blog</h1>
 
-                <Form name="sentMessage" method="post"data-netlify="true" data-netlify-honeypot="bot-field">
+                <Form name="sentMessage" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                         <Form.Group controlId="exampleForm.ControlInput1">
                         <Form.Control type="text" placeholder="name" />
                         </Form.Group>
