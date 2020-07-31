@@ -31,19 +31,19 @@ const ContactPage = () => {
                 <Form name="sentMessage" novalidate="novalidate" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value="sentMessage" />
                     <Form.Group controlId="exampleForm.ControlInput1">
-                        <Form.Control type="text" placeholder="name" />
+                        <Form.Control type="text" name="name" placeholder="name" />
                     </Form.Group>
 
                     <Form.Group controlId="exampleForm.ControlInput1">
-                        <Form.Control type="text" placeholder="mobile number" />
+                        <Form.Control type="text" name="number" placeholder="mobile number" />
                     </Form.Group>
 
                     <Form.Group controlId="exampleForm.ControlInput1">
-                        <Form.Control type="email" placeholder="email" />
+                        <Form.Control type="email" name="email" placeholder="email" />
                     </Form.Group>
 
                     <Form.Group controlId="exampleForm.ControlTextarea1">
-                        <Form.Control as="textarea" rows="3" placeholder="your message" />
+                        <Form.Control as="textarea" name="message" rows="3" placeholder="your message" />
                     </Form.Group>
 
                     <Button variant="primary" type="submit">Submit</Button>
