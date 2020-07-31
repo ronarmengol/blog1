@@ -14,3 +14,11 @@
     background-size: cover;
     height: 100vh;
 }
+
+.background2 {
+    background-image: url(../images/blog-contact.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

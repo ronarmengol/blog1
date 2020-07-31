@@ -1,8 +1,11 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Layout from '../components/layout'
-import headerStyles from '../components/header.module.scss'
+import layoutStyles from '../components/layout.module.scss'
 import contactStyles from './contact.module.css'
+import Footer from '../components/footer'
+import Header from '../components/header'
+
+import { Form, Button, Row, Col } from 'react-bootstrap'
 
 const ContactPage = () => {
     return (
@@ -16,14 +19,27 @@ const ContactPage = () => {
                     <meta name="robots" content="index, follow" />
                 <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
         </Helmet>
+
         <section className={contactStyles.background1}>
+            <div className={layoutStyles.container}>
+                <Header />
+                <div className={layoutStyles.content}>
 
-            <Layout>
-                <h1 className={headerStyles.title}>Kitwe Blog</h1>
-                <p>My number 0966 232544</p>
+                <Form>
+  <Form.Group controlId="exampleForm.ControlInput1">
+    <Form.Label>Email address</Form.Label>
+    <Form.Control type="email" placeholder="name@example.com" />
+  </Form.Group>
+  <Form.Group controlId="exampleForm.ControlTextarea1">
+    <Form.Label>Example textarea</Form.Label>
+    <Form.Control as="textarea" rows="3" />
+  </Form.Group>
+</Form>
+            </div>
 
-            </Layout>
+        </div>
     </section>
+    <Footer />
         </div>
     )
 }

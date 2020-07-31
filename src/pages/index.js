@@ -18,6 +18,7 @@ const IndexPage = () => {
       <meta name="robots" content="index, follow" />
       <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
     </Helmet>
+    
     <section className={contactStyles.background}>
     <div className={layoutStyles.container}>
       <Header />

@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import blogStyles from './blog.module.scss'
 import headerStyles from '../components/header.module.scss'
+import contactStyles from './contact.module.css'
 
 const BlogPage = () => {
 
@@ -35,7 +36,7 @@ const BlogPage = () => {
             <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
         </Helmet>
             
-         <section>
+        <section className={contactStyles.background2}>
 
             <Layout>
             <h1 className={headerStyles.title}>Kitwe Blog</h1>
@@ -44,6 +45,7 @@ const BlogPage = () => {
 
                     {data.allContentfulBlogPost.edges.map((edge) => {
                         return (
+                        
                         
                         <li className={blogStyles.post}>
                             <Link to={`/blog/${edge.node.slug}`}>
