@@ -17,6 +17,7 @@ const IndexPage = () => {
       <meta name="keywords" content="Blog articles, freelance writer blogger Ron Armengol Kitwe Copperbelt Zambia" />
       <meta name="robots" content="index, follow" />
       <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
+      <meta name="canonical" href="https://ron-armengol-blog.netlify.app"/>
     </Helmet>
 
     <section className={contactStyles.background}>
