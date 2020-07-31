@@ -11,6 +11,7 @@ export const query = graphql`
         contentfulBlogPost(slug: {eq: $slug}) {
             title
             publishedDate(formatString: "MMMM Do, YYYY")
+            seoDescription
             body {
                 json
             }
@@ -38,10 +39,10 @@ const Blog = (props) => {
             <html lang="en" />
             <title>Kitwe Blog | {props.data.contentfulBlogPost.title} | Copperbelt Zambia blogger articles freelance writer</title>
             <meta name="author" content="Ron Armengol" />
-            <meta name="description" content={props.data.contentfulBlogPost.title} />
-            <meta name="description" content=" Copperbelt Zambia blogger articles freelance writer" />
-            <meta name="keywords" content={props.data.contentfulBlogPost.title} />
-            <meta name="keywords" content=" Blog articles, freelance writer blogger Ron Armengol Kitwe Copperbelt Zambia" />
+            <meta name="description" content={props.data.contentfulBlogPost.seoDescription} />
+            {/* <meta name="description" content=" Copperbelt Zambia blogger articles freelance writer" /> */}
+            <meta name="keywords" content={props.data.contentfulBlogPost.seoDescription} />
+            {/* <meta name="keywords" content=" Blog articles, freelance writer blogger Ron Armengol Kitwe Copperbelt Zambia" /> */}
             <meta name="robots" content="index, follow" />
             <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
         </Helmet>

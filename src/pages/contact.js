@@ -1,11 +1,13 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import layoutStyles from '../components/layout.module.scss'
 import contactStyles from './contact.module.css'
 import Footer from '../components/footer'
 import Header from '../components/header'
+import headerStyles from '../components/header.module.scss'
 
-import { Form, Button, Row, Col } from 'react-bootstrap'
+import { Form, Button } from 'react-bootstrap'
 
 const ContactPage = () => {
     return (
@@ -24,17 +26,28 @@ const ContactPage = () => {
             <div className={layoutStyles.container}>
                 <Header />
                 <div className={layoutStyles.content}>
+                <h1 className={headerStyles.title}>Kitwe Blog</h1>
 
-                <Form>
-  <Form.Group controlId="exampleForm.ControlInput1">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="name@example.com" />
-  </Form.Group>
-  <Form.Group controlId="exampleForm.ControlTextarea1">
-    <Form.Label>Example textarea</Form.Label>
-    <Form.Control as="textarea" rows="3" />
-  </Form.Group>
-</Form>
+                <Form name="sentMessage" method="post"data-netlify="true" data-netlify-honeypot="bot-field">
+                        <Form.Group controlId="exampleForm.ControlInput1">
+                        <Form.Control type="text" placeholder="name" />
+                        </Form.Group>
+
+                    <Form.Group controlId="exampleForm.ControlInput2">
+                        <Form.Control type="text" placeholder="mobile number" />
+                    </Form.Group>
+
+                    <Form.Group controlId="exampleForm.ControlInput3">
+                        <Form.Control type="email" placeholder="email" />
+                    </Form.Group>
+
+
+                    <Form.Group controlId="exampleForm.ControlTextarea1">
+                        <Form.Control as="textarea" placeholder="your message" rows="3" />
+                    </Form.Group>
+
+                    <Button variant="primary" type="submit">Submit</Button>
+                </Form>
             </div>
 
         </div>
