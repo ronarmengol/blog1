@@ -28,27 +28,27 @@ const ContactPage = () => {
                 <div className={layoutStyles.content}>
                 <h1 className={headerStyles.title}>Kitwe Blog</h1>
 
-                <Form name="sentMessage" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-                        <input type="hidden" name="sentMessage" value="contact" />
-                    <Form.Group name="name" controlId="exampleForm.ControlInput1">
-                        <Form.Control name="name" type="text" placeholder="name" />
+                <Form name="sentMessage" novalidate="novalidate" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="sentMessage" />
+                    <Form.Group controlId="exampleForm.ControlInput1">
+                        <Form.Control type="text" placeholder="name" />
                     </Form.Group>
 
-                    <Form.Group name="mobile number" controlId="exampleForm.ControlInput2">
-                        <Form.Control name="mobile number" type="text" placeholder="mobile number" />
+                    <Form.Group controlId="exampleForm.ControlInput1">
+                        <Form.Control type="text" placeholder="mobile number" />
                     </Form.Group>
 
-                    <Form.Group name="email" controlId="exampleForm.ControlInput3">
-                        <Form.Control name="email" type="email" placeholder="email" />
+                    <Form.Group controlId="exampleForm.ControlInput1">
+                        <Form.Control type="email" placeholder="email" />
                     </Form.Group>
 
-
-                    <Form.Group name="textarea" controlId="exampleForm.ControlTextarea1">
-                        <Form.Control name="textarea" as="textarea" placeholder="your message" rows="3" />
+                    <Form.Group controlId="exampleForm.ControlTextarea1">
+                        <Form.Control as="textarea" rows="3" placeholder="your message" />
                     </Form.Group>
 
                     <Button variant="primary" type="submit">Submit</Button>
                 </Form>
+                
             </div>
 
         </div>
