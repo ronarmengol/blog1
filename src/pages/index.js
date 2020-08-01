@@ -5,6 +5,8 @@ import layoutStyles from '../components/layout.module.scss'
 import contactStyles from './contact.module.css'
 import Footer from '../components/footer'
 import Header from '../components/header'
+
+
 const IndexPage = () => {
   return (
     <div>
