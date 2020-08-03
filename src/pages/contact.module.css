@@ -1,5 +1,5 @@
 .background {
-    background-image: url(../images/blog-kitwe-background.jpg);
+    background-image: url(../images/blog-kitwe-background.jpeg);
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
     height: 110vh;
 }
 .background1 {
-    background-image: url(../images/blog-contact.jpg);
+    background-image: url(../images/blog-contact.jpeg);
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
 }
 
 .background2 {
-    background-image: url(../images/blog-contact.jpg);
+    background-image: url(../images/blog-contact.jpeg);
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
