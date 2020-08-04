@@ -37,14 +37,31 @@ const IndexPage = () => {
       <p>
         I have now learned enough to open up my own website, and store content in a cloud database. I am not a writer, but definitely want to aspire to be a better one. I did not want to start blogging when I felt good enough to write, I know this would lead to gross procrastination, I think with any grand plans, we should just dive in, and learn as we go along.
         <br></br>
-        I hope to share all the tools and lessons I learn in this new and exciting journey.
+        Below, I hope to share all the tools and lessons I learn in this new and exciting journey and in the blog page I will basically pen down random thoughts and ideas.
+        <br></br>
+        If you are an aspiring programmer in Zambia, I would love to hear from you. I am actually feeling overwhelmed with how much I need to learn...lol.
       </p>
-        <h3>Install grammarly, the best blog tool.</h3>
-        <p>Poor grammar and bad spelling will definitely make any writer look amateur. Grammarly is amazing it assists in checking your spelling, grammar and punctuation. And reminds you if sentences are too windy.</p>
     </section>
+
+    <section className={layoutStyles.container2}>
+        <h1>Writing tools</h1>
+        <h5>Install grammarly, the best blog tool.</h5>
+        <p>Poor grammar and bad spelling will definitely make any writer look amateur. Grammarly is amazing it assists in checking your spelling, grammar and punctuation. And reminds you if sentences are too windy.</p>
+        <h5>Thesaurus and Dictionary</h5>
+        <p>Do not get mixed up with similar sounding words like inspire, and aspire, double check you have used the right word to express your content. Spice up your content with variety of synonyms with an online Thesaurus. </p>
+    </section>
+
+    <section className={layoutStyles.container2}>
+        <h1>SEO</h1>
+        <h6>Search Engine Optimization</h6>
+        <p>Search Engine Optimization simply put is the implementation of making your website user and search engine friendly for the purpose of attracting organic traffic (without the use of Ads) to your website.</p>
+        <h5>LSI keywords</h5>
+        <p>In the past google would scan your website and check for keywords and keyword density. This was a computer algorithm, simply explained: if you mentioned chicken enough times, google would index you as a possible chicken expert...lol, okay probably a chicken farmer, producer, trader etc. So basically if you mentioned a keyword enough times, google will conclude your webpage if about that many-times-mentioned keyword.</p>
+    </section>
+    
+
       <div style={{textAlign: `center`}}>
       <Footer />
-
       </div>
     </div>
   )

@@ -13,8 +13,11 @@
 }
 
 .container2 {
-    margin:7rem auto;
+    margin:5rem auto;
     max-width: 750px;
     padding: 1rem;
-    min-height: 100vh;
+
+    h1 {
+        color: blue;
+    }
 }
