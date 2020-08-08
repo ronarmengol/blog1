@@ -1,10 +1,11 @@
 .background {
     background-image: url(../images/blog-kitwe-background.jpeg);
     background-attachment: fixed;
-    /* background-position: top; */
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150vh;
+    width: 100vw;
+    
 }
 .background1 {
     background-image: url(../images/blog-contact.jpeg);
