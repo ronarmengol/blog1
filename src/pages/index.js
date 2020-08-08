@@ -57,6 +57,19 @@ const IndexPage = () => {
         <p>Search Engine Optimization simply put is the implementation of making your website user and search engine friendly for the purpose of attracting organic traffic (without the use of Ads) to your website.</p>
         <h5>LSI keywords</h5>
         <p>In the past google would scan your website and check for keywords and keyword density. This was a computer algorithm, simply explained: if you mentioned chicken enough times, google would index you as a possible chicken expert...lol, okay probably a chicken farmer, producer, trader etc. So basically if you mentioned a keyword enough times, google will conclude your webpage if about that many-times-mentioned keyword.</p>
+        <h5>Speed</h5>
+        <p>No one wants a slow website, apparently neither does google. Google will rank your page unfavourably if it downloads too slowly. The first week of August 2020</p>
+        <h1>Miscellaneous</h1>
+        <h6>Timeline</h6>
+        <ul>
+          <li>14th July 2020 - posted my first post</li>
+          <li>28th July 2020 - applied SEO on my blog</li>
+          <li>29th July 2020 - ranked 32 with Kitwe Blog keywords</li>
+          <li>8th August 2020 - ranked 4 with Kitwe Blog keywords</li>
+        </ul>
+        <h1>Technicals</h1>
+        <h6>The boring geeky stuff</h6>
+        <p>The first week of August I have been struggling to work on website speed. I don't work on my blog speed for my blog site because it runs under a Gatsby framework which is renowned for speed</p>
     </section>
     
 
