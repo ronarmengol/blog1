@@ -53,20 +53,71 @@ const IndexPage = () => {
 
     <section className={layoutStyles.container2}>
         <h1>SEO</h1>
-        <h6>Search Engine Optimization</h6>
+        
+        <h5>Search Engine Optimization</h5>
         <p>Search Engine Optimization simply put is the implementation of making your website user and search engine friendly for the purpose of attracting organic traffic (without the use of Ads) to your website.</p>
+        
         <h5>LSI keywords</h5>
         <p>In the past google would scan your website and check for keywords and keyword density. This was a computer algorithm, simply explained: if you mentioned chicken enough times, google would index you as a possible chicken expert...lol, okay probably a chicken farmer, producer, trader etc. So basically if you mentioned a keyword enough times, google will conclude your webpage if about that many-times-mentioned keyword.</p>
+        
+        <h5>Typography</h5>
+        <p>Overall layout of the web document</p>
+        <ul>
+          <li>Do not forget to fill in the title</li>
+          <li>Fill in the keywords and description meta tags</li>
+          <li>Populate the h1 and h2 tags with the appropriate keywords</li>
+          <li>SEO copywriting plan for 2-3 percent keyword density on content</li>
+          <li>fill in the alt and title tags for images</li>
+        </ul>
+
         <h5>Speed</h5>
-        <p>No one wants a slow website, apparently neither does google. Google will rank your page unfavourably if it downloads too slowly. The first week of August 2020</p>
+        <p>No one wants a slow website, apparently neither does google. Google will rank your page unfavourably if it downloads too slowly. Google wants users of their engine to have a good website experience and one important criteria is speed. Google from their own research and analytics say that website speed is the first impression a client has over the internet.</p>
+        <ul>
+          <li>delay render blocking scripts</li>
+          <li>delay loading images below viewport</li>
+          <li>use correct image formats</li>
+          <li>do not use oversized images</li>
+          <li>use responsive imaging for mobile users</li>
+          <li>switch off autoplay if you have videos</li>
+          <li>check browser console for errors</li>
+          <li>load CSS asycnchronously</li>
+          <li>choose CDN CSS over downloaded source files</li>
+          <li>use inline CSS for items on load page viewport</li>
+
+        </ul>
+
+
+        <h1>Responsive website</h1>
+        <h5>Layout</h5>
+        <p>A responsive website is not referring to a fast website. A responsive is a website that is mobile friendly. I design and build the webpage on a laptop, and I can see the effects of my code on the look of the website on a large screen. I must also take into account, how this will look on a smaller mobile screen. How can we put content that is designed on a large screen and put this into a smaller screen with a different display aspect ratio?</p>
+        <p>A website that is not responsive can take on two looks:</p>
+        <ul>
+          <li>
+            The image and text shrinks so everything is squeezed into the width of the small mobile screen viewport. This makes the text difficult to read and the images unclear.
+          </li>
+          <li>
+            Another alternative is maintain the image and text size but the images and text 'overflows' from the side of the phone.
+          </li>
+        </ul>
+        <p>
+        The programmer solves by using a grid layout and media queries breakpoints. This makes the layout of the webpage dynamic. In simple terms this is moving content that is stacked horizontally and making them stack vertically as the screen width reaches certain breakpoints (specified pixel widths).</p>
+        <p>If you are a beginner, containerize (or wrap) your content in a div that has a max-width of say 600px that is text centered on the screen. Here you do not need to worry about columns changing in a smaller viewport. It is important to reduce the text width because it is tiring for readers to read text that compasses the full width of the laptop or desktop screen. </p>
+        <h5>Images</h5>
+        <p>Responsive images is the concern of images reacting to the viewport. Images naturally resize to the parent container (html div tag) unless we put a fixed width and height to the image. This is not pure responsiveness. My laptop pixel dimension is about 1350 by 6</p>
+
+
         <h1>Miscellaneous</h1>
-        <h6>Timeline</h6>
+        <h5>Timeline</h5>
         <ul>
           <li>14th July 2020 - posted my first post</li>
           <li>28th July 2020 - applied SEO on my blog</li>
           <li>29th July 2020 - ranked 32 with Kitwe Blog keywords</li>
           <li>8th August 2020 - ranked 4 with Kitwe Blog keywords</li>
         </ul>
+
+
+
+
         <h1>Technicals</h1>
         <h6>The boring geeky stuff</h6>
         <p>The first week of August I have been struggling to work on website speed. I don't work on my blog speed for my blog site because it runs under a Gatsby framework which is renowned for speed</p>
