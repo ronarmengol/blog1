@@ -13,9 +13,9 @@ const IndexPage = () => {
 
     <Helmet>
       <html lang="en" />
-      <title>Kitwe Blogger writer freelance Ron Armengol Blog Copperbelt Zambia Life</title>
+      <title>Blogger freelance writer Kitwe Copperbelt Zambia blog post Ron Armengol</title>
       <meta name="author" content="Ron Armengol" />
-      <meta name="description" content="Blog articles, freelance writer blogger Ron Armengol Kitwe Copperbelt Zambia" />
+      <meta name="description" content="Blogger, freelance writer blogger Kitwe Copperbelt Zambia Ron Armengol home page" />
       <meta name="keywords" content="Blog articles, freelance writer blogger Ron Armengol Kitwe Copperbelt Zambia" />
       <meta name="robots" content="index, follow" />
       <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
@@ -33,14 +33,21 @@ const IndexPage = () => {
 
     <section className={layoutStyles.container2}>
       <p style={{fontSize: `3rem`}}>Hi,</p>
-      <h2>I'm Ron, an aspiring web developer and <em>blogger</em>.</h2>
+      <h2>I'm Ron, an aspiring web developer in the Copperbelt.</h2>
       <p>
-        I have now learned enough to open up my own website, and store content in a cloud database. I am not a writer, but definitely want to aspire to be a better one. I did not want to start blogging when I felt good enough to write, I know this would lead to gross procrastination, I think with any grand plans, we should just dive in, and learn as we go along.
+        I have now learned enough to open up my own website, and store content in a cloud database CMS. I am an aspiring to be a better writer. I did not want to start blogging when I felt good enough to write, I know this would lead to gross procrastination, I think with any grand plans, we should just dive in, and learn as we go along.
         <br></br>
         Below, I hope to share all the tools and lessons I learn in this new and exciting journey and in the blog page I will basically pen down random thoughts and ideas.
         <br></br>
         If you are an aspiring programmer in Zambia, I would love to hear from you. I am actually feeling overwhelmed with how much I need to learn...lol.
       </p>
+      <p>
+        I am not using the Wordpress platform or any other website builder. I am using HTML, CSS and Javascript for other websites I build. But for this blog I am using React in the Gatsby platform with the Contentful CMS. I am planning to improve my React skills once I buy a much faster computer. The development build is a crazy 5 minute wait.
+      </p>
+      <p>
+        
+      </p>
+
     </section>
 
     <section className={layoutStyles.container2}>
@@ -111,8 +118,8 @@ const IndexPage = () => {
         <ul>
           <li>14th July 2020 - posted my first post</li>
           <li>28th July 2020 - applied SEO on my blog</li>
-          <li>29th July 2020 - ranked 32 with Kitwe Blog keywords</li>
-          <li>8th August 2020 - ranked 4 with Kitwe Blog keywords</li>
+          <li>29th July 2020 - ranked 32 with Kitwe Bloggers keywords</li>
+          <li>8th August 2020 - ranked 4 with Kitwe Bloggers keywords</li>
         </ul>
 
 
@@ -121,6 +128,8 @@ const IndexPage = () => {
         <h1>Technicals</h1>
         <h6>The boring geeky stuff</h6>
         <p>The first week of August I have been struggling to work on website speed. I don't work on my blog speed for my blog site because it runs under a Gatsby framework which is renowned for speed</p>
+        <p>The real issue is jquery if it is deferred, it makes the javascript in the page sleep. The drop down menu bars stop functioning, and jquery is quite heavy on code. If it is any consolation, Bootrap 5 is coming out, it will not be using JQuery in its library. And another big one is it will no longer support Explorer IE brower.</p>
+        <p>When I look at come of the themes available too many are using JQuery. If JQuery is removed I seem to see the download shave another 1 - 1.5 seconds.</p>
     </section>
     
 
