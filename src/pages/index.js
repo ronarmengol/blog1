@@ -37,15 +37,15 @@ const IndexPage = () => {
       <p>
         I have now learned enough to open up my own website, and store content in a cloud database CMS. I am an aspiring to be a better writer. I did not want to start blogging when I felt good enough to write, I know this would lead to gross procrastination, I think with any grand plans, we should just dive in, and learn as we go along.
         <br></br>
-        Below, I hope to share all the tools and lessons I learn in this new and exciting journey and in the blog page I will basically pen down random thoughts and ideas.
+        Below, I hope to share all the tools and lessons I learn in this new and exciting journey of blogging and programming, and in the blog page I will basically pen down random thoughts and ideas.
         <br></br>
-        If you are an aspiring programmer in Zambia, I would love to hear from you. I am actually feeling overwhelmed with how much I need to learn...lol.
+        I am extremely fortunate that the Covid 19 restrictions have not hindered my pursuit of programming. I am currently in Kitwe, <em>Zambia</em>, writing this blog. I love it here in Kitwe, its a small city, and little traffic. Generally in the Copperbelt it is quiet compared to the capital Lusaka.
       </p>
       <p>
         I am not using the Wordpress platform or any other website builder. I am using HTML, CSS and Javascript for other websites I build. But for this blog I am using React in the Gatsby platform with the Contentful CMS. I am planning to improve my React skills once I buy a much faster computer. The development build is a crazy 5 minute wait.
       </p>
       <p>
-        
+        If you are in Kitwe, Ndola, Lusaka or anywhere in Zambia and you are seriously considering thinking of programming or web development, you do not need to go out of the country. There is enough resources on the internet to learn. 
       </p>
 
     </section>
@@ -62,7 +62,7 @@ const IndexPage = () => {
         <h1>SEO</h1>
         
         <h5>Search Engine Optimization</h5>
-        <p>Search Engine Optimization simply put is the implementation of making your website user and search engine friendly for the purpose of attracting organic traffic (without the use of Ads) to your website.</p>
+        <p>Search Engine Optimization simply put is the implementation of making your website search engine friendly for the purpose of attracting organic traffic (without the use of Ads) to your website.</p>
         
         <h5>LSI keywords</h5>
         <p>In the past google would scan your website and check for keywords and keyword density. This was a computer algorithm, simply explained: if you mentioned chicken enough times, google would index you as a possible chicken expert...lol, okay probably a chicken farmer, producer, trader etc. So basically if you mentioned a keyword enough times, google will conclude your webpage if about that many-times-mentioned keyword.</p>
@@ -120,6 +120,9 @@ const IndexPage = () => {
           <li>28th July 2020 - applied SEO on my blog</li>
           <li>29th July 2020 - ranked 32 with Kitwe Bloggers keywords</li>
           <li>8th August 2020 - ranked 4 with Kitwe Bloggers keywords</li>
+          <li>18th August 2020 - I did not appear at all for keywords Zambia blogger. Inserted some SEO for Zambia.</li>
+          <li>20th August 2020 - ranked 3 with Kitwe Blogger keywords and ranked 3 with Copperbelt blogger. </li>
+          <li>20th August 2020 - ranked 136 with Zambia Blogger keywords and ranked 3 with Copperbelt blogger. </li>
         </ul>
 
 
@@ -130,6 +133,7 @@ const IndexPage = () => {
         <p>The first week of August I have been struggling to work on website speed. I don't work on my blog speed for my blog site because it runs under a Gatsby framework which is renowned for speed</p>
         <p>The real issue is jquery if it is deferred, it makes the javascript in the page sleep. The drop down menu bars stop functioning, and jquery is quite heavy on code. If it is any consolation, Bootrap 5 is coming out, it will not be using JQuery in its library. And another big one is it will no longer support Explorer IE brower.</p>
         <p>When I look at come of the themes available too many are using JQuery. If JQuery is removed I seem to see the download shave another 1 - 1.5 seconds.</p>
+        <p></p>
     </section>
     
 
