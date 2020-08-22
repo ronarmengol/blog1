@@ -115,15 +115,13 @@ const IndexPage = () => {
 
         <h1>Miscellaneous</h1>
         <h5>Timeline</h5>
-        <ul>
-          <li>14th July 2020 - posted my first post</li>
-          <li>28th July 2020 - applied SEO on my blog</li>
-          <li>29th July 2020 - ranked 32 with Kitwe Bloggers keywords</li>
-          <li>8th August 2020 - ranked 4 with Kitwe Bloggers keywords</li>
-          <li>18th August 2020 - I did not appear at all for keywords Zambia blogger. Inserted some SEO for Zambia.</li>
-          <li>20th August 2020 - ranked 3 with Kitwe Blogger keywords and ranked 3 with Copperbelt blogger. </li>
-          <li>20th August 2020 - ranked 136 with Zambia Blogger keywords and ranked 3 with Copperbelt blogger. </li>
-        </ul>
+          14th July 2020 - posted my first post <br />
+          28th July 2020 - applied SEO on my blog <br />
+          29th July 2020 - ranked 32 with Kitwe Bloggers keywords <br />
+          8th August 2020 - ranked 4 with Kitwe Bloggers keywords <br />
+          18th August 2020 - I did not appear at all for keywords Zambia blogger. Inserted some SEO for Zambia. <br />
+          20th August 2020 - ranked 3 with Kitwe Blogger keywords and ranked 3 with Copperbelt blogger. <br />
+          20th August 2020 - ranked 136 with Zambia Blogger keywords and ranked 3 with Copperbelt blogger.<br />
 
 
 
