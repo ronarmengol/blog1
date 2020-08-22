@@ -13,9 +13,9 @@ const IndexPage = () => {
 
     <Helmet>
       <html lang="en" />
-      <title>Blogger freelance writer Kitwe Copperbelt Zambia blog post Ron Armengol</title>
+      <title>Blogger freelance writer Kitwe Copperbelt Zambia blog </title>
       <meta name="author" content="Ron Armengol" />
-      <meta name="description" content="Blogger, freelance writer blogger Kitwe Copperbelt Zambia Ron Armengol home page" />
+      <meta name="description" content="Blogger, freelance blog writer Kitwe Copperbelt Zambia Ron Armengol home page introduction" />
       <meta name="keywords" content="Blog articles, freelance writer blogger Ron Armengol Kitwe Copperbelt Zambia" />
       <meta name="robots" content="index, follow" />
       <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
