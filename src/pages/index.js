@@ -35,6 +35,7 @@ const IndexPage = () => {
       <p style={{fontSize: `3rem`}}>Hi, I am Ron,</p>
       <h1>web developer (designer) in Zambia</h1>
       <h2 style={{display: `none`}}>Blogger blog zambia</h2>
+      <p style={{display: `none`}}>Blogger blog zambia</p>
       <p>
         I have now learned enough to open up my own website, and store content in a cloud database CMS. I am an aspiring to be a better writer. I did not want to start <em><strong>blogging</strong></em> when I felt good enough to write, I know would have ended up never starting, I think with any grand plans, we should just dive in, and learn as we go along.
         <br></br>
@@ -55,6 +56,7 @@ const IndexPage = () => {
       
 
         <h2>Writing tools</h2>
+        <p style={{display: `none`}}>Blogger blog zambia</p>
         <h5>Install grammarly, the best <em><strong>blog</strong></em> tool.</h5>
         <p>Poor grammar and bad spelling will definitely make any writer look amateur. Grammarly is amazing it assists in checking your spelling, grammar and punctuation. And reminds you if sentences are too windy.</p>
         <h5>Thesaurus and Dictionary</h5>
@@ -68,6 +70,7 @@ const IndexPage = () => {
         <p>Search Engine Optimization simply put is the implementation of making your website search engine friendly for the purpose of attracting organic traffic (without the use of Ads) to your website.</p>
         
         <h5>LSI keywords</h5>
+        <p style={{display: `none`}}>Blogger blog zambia</p>
         <p>In the past google would scan your website and check for keywords and keyword density. This was a computer algorithm, simply explained: if you mentioned chicken enough times, google would index you as a possible chicken expert...lol, okay probably a chicken farmer, producer, trader etc. So basically if you mentioned a keyword enough times, google will conclude your webpage if about that many-times-mentioned keyword.</p>
         
         <h5>Typography</h5>
@@ -156,7 +159,7 @@ const IndexPage = () => {
         <p>
           I must also give a little credit to my SEO skills over the last couple of months. I think basic on page SEO is easy to understand. Unfortunately implementation is really quite tedious and boring. I feel people who do not apply SEO are completely ignorant of it and its importance or, just cannot be bothered to apply it.
         </p>
-
+        <p style={{display: `none`}}>Blogger blog zambia</p>
         <h2 style={{marginTop: `2rem`, marginBottom: `1rem`}}>Technicals</h2>
         <h2 style={{display: `none`}}>Blogger blog zambia</h2>
         <h6>The boring geeky stuff</h6>
@@ -167,7 +170,7 @@ const IndexPage = () => {
           It is important to note I have not added any structured data for the website SEO. I will do this at a later date. 
         </p>
         <p>Bought a new lenovo computer 500 GB static hard drive and 16GB RAM. Absolutely fantastic. With my 4GB HP it would take over 5 minutes to prepare the gatsby develop, with the Lenovo 20 seconds. When I used Gatsby with the HP, it was so slow that even VS code would lag, other programs stopped. The 16GB lenovo is an absolute powerhouse.</p>
-
+        <p style={{display: `none`}}>Blogger blog zambia</p>
         <h2 style={{marginTop: `2rem`, marginBottom: `1rem`}}>Future plans</h2>
         <p>
           September - October 2020: I want to work on CSS and website design. Website design does not require much Javascript. Javascript used for simple animations are usually provided online as code snippets.
