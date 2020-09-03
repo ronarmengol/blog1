@@ -122,7 +122,9 @@ const IndexPage = () => {
           18th August 2020 - I did not appear at all for keywords Zambia blogger. Inserted some SEO for Zambia. <br />
           20th August 2020 - ranked 3 with Kitwe Blogger keywords and ranked 3 with Copperbelt blogger. <br />
           20th August 2020 - ranked 136 with Zambia Blogger keywords and ranked 3 with Copperbelt blogger.<br />
-
+          2nd September 2020 - ranked 1 with Kitwe Blogger and or blogger Kitwe <br />
+          2nd September 2020 - ranked 1 with Copperbelt blogger or Copperbelt blogger <br />
+          2nd September 2020 - ranked 20 with blogger zambia and 46 with zambia blogger
 
 
 
@@ -131,7 +133,7 @@ const IndexPage = () => {
         <p>The first week of August I have been struggling to work on website speed. I don't work on my blog speed for my blog site because it runs under a Gatsby framework which is renowned for speed</p>
         <p>The real issue is jquery if it is deferred, it makes the javascript in the page sleep. The drop down menu bars stop functioning, and jquery is quite heavy on code. If it is any consolation, Bootrap 5 is coming out, it will not be using JQuery in its library. And another big one is it will no longer support Explorer IE brower.</p>
         <p>When I look at come of the themes available too many are using JQuery. If JQuery is removed I seem to see the download shave another 1 - 1.5 seconds.</p>
-        <p></p>
+        <p>Bought a new lenovo computer 500 GB static hard drive and 16GB RAM. Absolutely fantastic. With my 4GB HP it would take over 5 minutes to prepare the gatsby develop, with the Lenovo 20 seconds. When I used Gatsby with the HP, it was so slow that even VS code would lag, other programs stopped. The 16GB lenovo is an absolute powerhouse.</p>
     </section>
     
 
