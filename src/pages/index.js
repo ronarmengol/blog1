@@ -32,8 +32,8 @@ const IndexPage = () => {
     </section>
 
     <section className={layoutStyles.container2}>
-      <p style={{fontSize: `3rem`}}>Hi,</p>
-      <h2>I'm Ron, an aspiring web developer in the Copperbelt.</h2>
+      <p style={{fontSize: `3rem`}}>Hi, I am Ron,</p>
+      <h1>web developer (designer) in Zambia</h1>
       <p>
         I have now learned enough to open up my own website, and store content in a cloud database CMS. I am an aspiring to be a better writer. I did not want to start blogging when I felt good enough to write, I know this would lead to gross procrastination, I think with any grand plans, we should just dive in, and learn as we go along.
         <br></br>
@@ -51,7 +51,7 @@ const IndexPage = () => {
     </section>
 
     <section className={layoutStyles.container2}>
-        <h1>Writing tools</h1>
+        <h2>Writing tools</h2>
         <h5>Install grammarly, the best blog tool.</h5>
         <p>Poor grammar and bad spelling will definitely make any writer look amateur. Grammarly is amazing it assists in checking your spelling, grammar and punctuation. And reminds you if sentences are too windy.</p>
         <h5>Thesaurus and Dictionary</h5>
@@ -59,7 +59,7 @@ const IndexPage = () => {
     </section>
 
     <section className={layoutStyles.container2}>
-        <h1>SEO</h1>
+        <h2>SEO</h2>
         
         <h5>Search Engine Optimization</h5>
         <p>Search Engine Optimization simply put is the implementation of making your website search engine friendly for the purpose of attracting organic traffic (without the use of Ads) to your website.</p>
@@ -94,7 +94,7 @@ const IndexPage = () => {
         </ul>
 
 
-        <h1>Responsive website</h1>
+        <h2>Responsive website</h2>
         <h5>Layout</h5>
         <p>A responsive website is not referring to a fast website. A responsive is a website that is mobile friendly. I design and build the webpage on a laptop, and I can see the effects of my code on the look of the website on a large screen. I must also take into account, how this will look on a smaller mobile screen. How can we put content that is designed on a large screen and put this into a smaller screen with a different display aspect ratio?</p>
         <p>A website that is not responsive can take on two looks:</p>
@@ -113,7 +113,7 @@ const IndexPage = () => {
         <p>Responsive images is the concern of images reacting to the viewport. Images naturally resize to the parent container (html div tag) unless we put a fixed width and height to the image. This is not pure responsiveness. My laptop pixel dimension is about 1350 by 6</p>
 
 
-        <h1>Miscellaneous</h1>
+        <h2>Miscellaneous</h2>
         <h5>Timeline</h5>
           14th July 2020 - posted my first post <br />
           28th July 2020 - applied SEO on my blog <br />
@@ -128,7 +128,7 @@ const IndexPage = () => {
 
 
 
-        <h1>Technicals</h1>
+        <h2>Technicals</h2>
         <h6>The boring geeky stuff</h6>
         <p>The first week of August I have been struggling to work on website speed. I don't work on my blog speed for my blog site because it runs under a Gatsby framework which is renowned for speed</p>
         <p>The real issue is jquery if it is deferred, it makes the javascript in the page sleep. The drop down menu bars stop functioning, and jquery is quite heavy on code. If it is any consolation, Bootrap 5 is coming out, it will not be using JQuery in its library. And another big one is it will no longer support Explorer IE brower.</p>
