@@ -79,6 +79,13 @@ const IndexPage = () => {
 
         <h5>Speed</h5>
         <p>No one wants a slow website, apparently neither does google. Google will rank your page unfavourably if it downloads too slowly. Google wants users of their engine to have a good website experience and one important criteria is speed. Google from their own research and analytics say that website speed is the first impression a client has over the internet.</p>
+        <p>
+          Gatsby as a static site generator, which means it converts the back-end development language (React) into native HTML, CSS and Javascript code. <br />
+          Gatsby is well known for its inherent speed. This means you do not need to add additional code and speed analysis to your program to optimize web speed. 
+        </p>
+        <p>
+          However, if you want to use the native browser languages or platforms you have to get your hands a little dirty to ensure that your website runs faster. Here are a few tips which are on my checklist to maximise website speed.
+        </p>
         <ul>
           <li>delay render blocking scripts</li>
           <li>delay loading images below viewport</li>
@@ -113,7 +120,7 @@ const IndexPage = () => {
         <p>Responsive images is the concern of images reacting to the viewport. Images naturally resize to the parent container (html div tag) unless we put a fixed width and height to the image. This is not pure responsiveness. My laptop pixel dimension is about 1350 by 6</p>
 
 
-        <h2>Miscellaneous</h2>
+        <h2 style={{marginTop: `2rem`, marginBottom: `1rem`}}>Miscellaneous</h2>
         <h5>Timeline</h5>
           14th July 2020 - posted my first post <br />
           28th July 2020 - applied SEO on my blog <br />
@@ -128,7 +135,7 @@ const IndexPage = () => {
 
 
 
-        <h2>Technicals</h2>
+        <h2 style={{marginTop: `2rem`, marginBottom: `1rem`}}>Technicals</h2>
         <h6>The boring geeky stuff</h6>
         <p>The first week of August I have been struggling to work on website speed. I don't work on my blog speed for my blog site because it runs under a Gatsby framework which is renowned for speed</p>
         <p>The real issue is jquery if it is deferred, it makes the javascript in the page sleep. The drop down menu bars stop functioning, and jquery is quite heavy on code. If it is any consolation, Bootrap 5 is coming out, it will not be using JQuery in its library. And another big one is it will no longer support Explorer IE brower.</p>
