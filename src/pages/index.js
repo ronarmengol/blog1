@@ -35,7 +35,6 @@ const IndexPage = () => {
       <p style={{fontSize: `3rem`}}>Hi, I am Ron,</p>
       <h1>web developer (designer) in Zambia</h1>
       <h2 style={{display: `none`}}>Blogger blog zambia</h2>
-      <p style={{display: `none`}}>zambia</p>
       <p>
         I have now learned enough to open up my own website, and store content in a cloud database CMS. I am an aspiring to be a better writer. I did not want to start <em><strong>blogging</strong></em> when I felt good enough to write, I know would have ended up never starting, I think with any grand plans, we should just dive in, and learn as we go along.
         <br></br>
@@ -44,10 +43,20 @@ const IndexPage = () => {
         I am extremely fortunate that the Covid 19 restrictions have not hindered my pursuit of programming. I am currently in <em>Kitwe</em>, <em>Zambia</em>, writing this <em><strong>blog</strong></em>. I love it here in Kitwe, its a small city, and little traffic. Generally in the <em>Copperbelt</em> it is quiet compared to the capital Lusaka.
       </p>
       <p>
-        I am not using the Wordpress platform or any other website builder. I am using HTML, CSS and Javascript for other websites I build. But for this <em><strong>blog</strong></em> I am using React in the Gatsby platform with the Contentful CMS. I am planning to improve my React skills once I buy a much faster computer. The development build is a crazy 5 minute wait.
+        I am not using the Wordpress platform or any other website builder. I am using HTML, CSS and Javascript for other websites I build. But for this <em><strong>blog</strong></em> I am using React in the Gatsby platform with the Contentful CMS.
       </p>
       <p>
         If you are in Kitwe, Ndola, Lusaka or anywhere in Zambia and you are seriously considering thinking of programming or web development, you do not need to go out of the country. There is enough resources on the internet to learn. 
+      </p>
+      <h3>Wix and other website builders</h3>
+      <p>
+        I made a website for my sister, it took me 2 days to make. A simple website to show pictures of her beagles. I struggled. I noticed there seems to be a big gap between what I can do and what she expects. Eventually she was moderately happy. That is not a good sign. The customer should be super happy. She also embarked using a website builder, and she choose Wix. She has no experience building websites and no coding. I was not so shocked when she produced a website that looked better than mine.
+      </p>
+      <p>
+        The point I am trying to make here is, if you want to just be making websites as a career, website builders such as Wix can put you out of business very quickly. It advocates making high quality websites almost for free. And as an average web developer you will (not match up), unless you offer something better than wix, squarespace or webflow. I believe these are the top 3 builders. I have excluded Wordpress, and that is another web builder on a league of its own. 
+      </p>
+      <p>
+        I am not planning to be looking at Wix or the other builders any time soon. I feel the pressure to get my programming skills up first. But just a few notes. Wix is free for the first year. The second year will cost about $14.95 for hosting using the Wix domain name extension. If you do decide to go for the free package, Wix will advertise their website on the top of your website.
       </p>
 
     </section>
