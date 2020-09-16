@@ -52,8 +52,8 @@ const IndexPage = () => {
     </section>
 
     <section className={layoutStyles.container2}>
-      <p style={{fontSize: `3rem`}}>Hi, I am Ron,</p>
-      <h1>web developer (designer) in Zambia</h1>
+      <p style={{fontSize: `3rem`}}>Hi, I am Ron, I am a</p>
+      <h1>Blogger in Zambia</h1>
       <h2 style={{display: `none`}}>Blogger blog zambia</h2>
       <p>
         I have now learned enough to open up my own website, and store content in a cloud database CMS. I am an aspiring to be a better writer. I did not want to start <em><strong>blogging</strong></em> when I felt good enough to write, I know would have ended up never starting, I think with any grand plans, we should just dive in, and learn as we go along.
@@ -68,6 +68,11 @@ const IndexPage = () => {
       <p>
         If you are in Kitwe, Ndola, Lusaka or anywhere in Zambia and you are seriously considering thinking of programming or web development, you do not need to go out of the country. There is enough resources on the internet to learn. 
       </p>
+      <p>
+        I have explored the possibility in being a blogger in Zambia. So, how much does a blogger make? or how does he make money buy blogging? I think before you explore certain avenues how to make money with your blog, you should have sufficient subscribers or visitors to entice your future sponsors.
+      </p>
+
+
       <h3>Wix and other website builders</h3>
       <p>
         I made a website for my sister, it took me 2 days to make. A simple website to show pictures of her beagles. I struggled. I noticed there seems to be a big gap between what I can do and what she expects. Eventually she was moderately happy. That is not a good sign. The customer should be super happy. She also embarked using a website builder, and she choose Wix. She has no experience building websites and no coding. I was not so shocked when she produced a website that looked better than mine.
@@ -103,12 +108,18 @@ const IndexPage = () => {
         <p>
           If you have found this web site, outside a personal recommendation to find it, it was because of SEO. I have used SEO to slowly rank for certain keywords. SEO is not instantaneous. If you have good SEO, you won't reach the top immediately especially if you have other websites which have applied SEO. Please go further down the page and read the Timeline under Miscellaneous.
         </p>
+        <p>
+          All SEO specialists emphasise that content is King. You can programmatically optimize your website so that it ranks well with Google, but at the end of the day, you must remember that you are writing and designing your web site with people in mind. There is also another metric called the bounce rate. If your visitor leaves almost immediately after visiting your website, Google will interpret this that the user did not find what he was looking for. So if this happens frequently, Google will presume that your website has very low quality content, and this will cause Google to rank your website down. So your website must have sufficient engaging content, to keep your website rank in Zambia up.
+        </p>
+        <p>
+          There is another trend going on with SEO specialists: this is having more favour with Google when you update regularly or frequently in Zambia. In other words, it will be difficult to compete against international websites that update and add new hundreds of content weekly. But I have also noticed that there are quite a few websites that are still in the top 20 for certain keywords that are more than 5 years old.
+        </p>
         
         <h5>LSI keywords</h5>
         <p style={{display: `none`}}>zambia</p>
         <p>In the past google would scan your website and check for keywords and keyword density. This was a computer algorithm, simply explained: if you mentioned chicken enough times, google would index you as a possible chicken expert...lol, okay probably a chicken farmer, producer, trader etc. So basically if you mentioned a keyword enough times, google will conclude your webpage if about that many-times-mentioned keyword.</p>
         <p>
-          Many SEO specialists warn using black hat SEO techniques to rank. Black hat techniques are unorthodox or 'playing the system' methods to rank. The danger is if you are found out, Google will penalize you. Watch your keyword density does not exceed 3%. In the same vein, failure to adequately have sufficient keywords, have not 
+          Many SEO specialists warn using black hat SEO techniques to rank. Black hat techniques are unorthodox or 'playing the system' methods to rank. The danger is if you are found out, Google will penalize you. Watch your keyword density does not exceed 3%. In the same vein, failure to adequately have sufficient keywords, Google may not fully understand what your website or webpage is about.
         </p>
         
         <h5>Typography</h5>
