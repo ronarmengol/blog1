@@ -25,14 +25,15 @@ const IndexPage = () => {
    
       <JsonLd>
           {{
-            '@context': 'https://schema.org',
-            '@type': 'Organization',
-            url: 'http://www.example.com',
-            name: 'My website',
-            contactPoint: {
-              '@type': 'ContactPoint',
-              telephone: '+1-401-555-1212',
-              contactType: 'Customer service',
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "Ron Armengol Blog",
+            "url": "https://ron-armengol-blog.netlify.app",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://ron-armengol-blog.netlify.app/search?={search_term_string}",
+              "query-input": "required name=search_term_string",
+
             },
           }}
         </JsonLd>
