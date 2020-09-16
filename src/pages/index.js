@@ -97,10 +97,19 @@ const IndexPage = () => {
         
         <h5>Search Engine Optimization</h5>
         <p>Search Engine Optimization simply put is the implementation of making your website search engine friendly for the purpose of attracting organic traffic (without the use of Ads) to your website.</p>
+        <p>
+          According to google there is in excess of 600 million blog sites. And what are the chances people find your website? If you rank even top 100 for your keywords, there is a high probability your site will not be clicked. Many people click websites that appear on the first page of SERP (Google's search engine results page). Very few people even bother to search the second or third SERP pages.
+        </p>
+        <p>
+          If you have found this web site, outside a personal recommendation to find it, it was because of SEO. I have used SEO to slowly rank for certain keywords. SEO is not instantaneous. If you have good SEO, you won't reach the top immediately especially if you have other websites which have applied SEO. Please go further down the page and read the Timeline under Miscellaneous.
+        </p>
         
         <h5>LSI keywords</h5>
         <p style={{display: `none`}}>zambia</p>
         <p>In the past google would scan your website and check for keywords and keyword density. This was a computer algorithm, simply explained: if you mentioned chicken enough times, google would index you as a possible chicken expert...lol, okay probably a chicken farmer, producer, trader etc. So basically if you mentioned a keyword enough times, google will conclude your webpage if about that many-times-mentioned keyword.</p>
+        <p>
+          Many SEO specialists warn using black hat SEO techniques to rank. Black hat techniques are unorthodox or 'playing the system' methods to rank. The danger is if you are found out, Google will penalize you. Watch your keyword density does not exceed 3%. In the same vein, failure to adequately have sufficient keywords, have not 
+        </p>
         
         <h5>Typography</h5>
         <p>Overall layout of the web document</p>
