@@ -25,6 +25,7 @@ const IndexPage = () => {
    
       <JsonLd>
           {{
+
             "@context": "https://schema.org/",
             "@type": "WebSite",
             "name": "Ron Armengol Blog",
@@ -32,12 +33,12 @@ const IndexPage = () => {
             "potentialAction": {
               "@type": "SearchAction",
               "target": "https://ron-armengol-blog.netlify.app/search?={search_term_string}",
-              "query-input": "required name=search_term_string",
-
-            },
+              "query-input": "required name=search_term_string"
+              
+            }
           }}
+          
         </JsonLd>
-   
    
     </Helmet>
 
