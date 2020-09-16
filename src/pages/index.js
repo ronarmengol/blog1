@@ -6,6 +6,8 @@ import contactStyles from './contact.module.css'
 import Footer from '../components/footer'
 import Header from '../components/header'
 
+import { JsonLd } from '../components/JsonLd'
+
 
 const IndexPage = () => {
   return (
@@ -20,19 +22,22 @@ const IndexPage = () => {
       <meta name="robots" content="index, follow" />
       <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
       <meta name="canonical" href="https://ron-armengol-blog.netlify.app"/>
-      <script type="application/ld+json">
-{{
-  "@context": "https://schema.org/",
-  "@type": "WebSite",
-  "name": "Ron Armengol Blog",
-  "url": "https://ron-armengol-blog.netlify.app",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://ron-armengol-blog.netlify.app/search?={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-}}
-</script>
+   
+      <JsonLd>
+          {{
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            url: 'http://www.example.com',
+            name: 'My website',
+            contactPoint: {
+              '@type': 'ContactPoint',
+              telephone: '+1-401-555-1212',
+              contactType: 'Customer service',
+            },
+          }}
+        </JsonLd>
+   
+   
     </Helmet>
 
     <section className={contactStyles.background}>
