@@ -20,6 +20,20 @@ const IndexPage = () => {
       <meta name="robots" content="index, follow" />
       <meta name="google-site-verification" content="vkn_1OZWK2FO3owAlOm0UP4SM3KNYlCVR3vPi52Ue94" />
       <meta name="canonical" href="https://ron-armengol-blog.netlify.app"/>
+      <JsonLd>
+        {{
+
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "Ron Armengol Blog",
+          "url": "https://ron-armengol-blog.netlify.app",
+          "potentialAction": {
+             "@type": "SearchAction",
+             "target": "https://ron-armengol-blog.netlify.app/search?={search_term_string}",
+             "query-input": "required name=search_term_string",
+          },
+        }}
+      </JsonLd>
     </Helmet>
 
     <section className={contactStyles.background}>
@@ -56,7 +70,7 @@ const IndexPage = () => {
         The point I am trying to make here is, if you want to just be making websites as a career, website builders such as Wix can put you out of business very quickly. It advocates making high quality websites almost for free. And as an average web developer you will (not match up), unless you offer something better than wix, squarespace or webflow. I believe these are the top 3 builders. I have excluded Wordpress, and that is another web builder on a league of its own. 
       </p>
       <p>
-        I am not planning to be looking at Wix or the other builders any time soon. I feel the pressure to get my programming skills up first. But just a few notes. Wix is free for the first year. The second year will cost about $14.95 for hosting using the Wix domain name extension. If you do decide to go for the free package, Wix will advertise their website on the top of your website.
+        I am not planning to be looking at Wix or the other builders any time soon. I feel the pressure to get my programming skills up first. But just a few notes. Wix is free for the first year. The second year will cost about $14.95 for hosting using the Wix domain name extension. If you do decide to go for the free package, Wix will advertise their website on the top of your website. You also cannot remove your wix website from their platform. So that means you are forced to use their hosting facilities only.
       </p>
 
     </section>
